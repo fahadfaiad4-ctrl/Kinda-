@@ -4,8 +4,8 @@
    ========================================================================== */
 
 :root {
-  /* brand */
-  --blue: #4a86bd;
+  /* brand — one accent color (red); blue reserved for the logo mark only */
+  --blue: #141b24;
   --blue-dim: #356797;
   --blue-darker: #0a1119;
   --red: #ff4433;
@@ -26,8 +26,8 @@
   --ink-dim: #93a7bb;
   --ink-dimmer: #5d7286;
 
-  --gradient: linear-gradient(115deg, var(--blue) 0%, #ff8a3d 52%, var(--red) 100%);
-  --gradient-soft: linear-gradient(115deg, rgba(74,134,189,0.18) 0%, rgba(255,138,61,0.18) 50%, rgba(255,68,51,0.18) 100%);
+  --gradient: linear-gradient(115deg, var(--red-dim) 0%, var(--red) 100%);
+  --gradient-soft: linear-gradient(115deg, rgba(255,68,51,0.14) 0%, rgba(255,68,51,0.04) 100%);
 
   --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.35);
   --shadow-md: 0 14px 34px rgba(0, 0, 0, 0.45);
@@ -72,7 +72,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 800; color: var(
 .btn-primary { background: var(--gradient); color: var(--white); box-shadow: var(--shadow-glow-red); }
 .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 16px 40px rgba(255, 68, 51, 0.45); }
 .btn-secondary { background: var(--surface-hi); color: var(--white); border-color: var(--border-hi); backdrop-filter: blur(8px); }
-.btn-secondary:hover { border-color: var(--blue); background: rgba(74,134,189,0.15); transform: translateY(-2px); }
+.btn-secondary:hover { border-color: var(--red); background: rgba(255,68,51,0.12); transform: translateY(-2px); }
 .btn-outline { background: transparent; color: var(--white); border-color: var(--border-hi); }
 .btn-outline:hover { background: var(--surface-hi); border-color: var(--white); }
 .btn-white { background: var(--white); color: var(--bg); }
@@ -88,7 +88,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 800; color: var(
 .topbar-tag { font-family: var(--font-heading); font-weight: 700; letter-spacing: 1.2px; color: var(--white); font-size: 0.72rem; text-transform: uppercase; }
 .topbar-tag::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--gradient); display: inline-block; box-shadow: 0 0 8px rgba(255,68,51,0.7); }
 .lang-switch { font-weight: 700; border: 1px solid var(--border-hi); border-radius: 3px; padding: 4px 12px; font-size: 0.75rem; letter-spacing: 0.5px; }
-.lang-switch:hover { background: var(--surface-hi); border-color: var(--blue); }
+.lang-switch:hover { background: var(--surface-hi); border-color: var(--red); }
 
 /* ---------- Header ---------- */
 .site-header { position: sticky; top: 0; z-index: 100; background: rgba(6, 10, 16, 0.78); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); }
@@ -268,7 +268,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 800; color: var(
 .contact-item h4 { font-size: 1rem; margin-bottom: 6px; color: var(--white); }
 .contact-item a, .contact-item p { color: var(--ink-dim); display: block; }
 .contact-item a:hover { color: var(--white); }
-.map-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 6px; color: var(--blue); font-weight: 700; font-size: 0.9rem; }
+.map-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 6px; color: var(--ink-dim); font-weight: 700; font-size: 0.9rem; text-decoration: underline; text-underline-offset: 3px; }
 .map-link:hover { color: var(--red); }
 
 .contact-form { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 38px; }
