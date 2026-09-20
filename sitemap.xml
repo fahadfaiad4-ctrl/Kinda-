@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://kinda-log.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kinda-log.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kinda-log.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kinda-log.com/"/>
+  </url>
+  <url>
+    <loc>https://kinda-log.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kinda-log.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kinda-log.com/ar/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kinda-log.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://kinda-log.com/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kinda-log.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kinda-log.com/ar/services.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kinda-log.com/services.html"/>
+  </url>
+  <url>
+    <loc>https://kinda-log.com/certifications.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kinda-log.com/certifications.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kinda-log.com/ar/certifications.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kinda-log.com/certifications.html"/>
+  </url>
+  <url>
+    <loc>https://kinda-log.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kinda-log.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kinda-log.com/ar/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kinda-log.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://kinda-log.com/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kinda-log.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kinda-log.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kinda-log.com/"/>
+  </url>
+  <url>
+    <loc>https://kinda-log.com/ar/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kinda-log.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kinda-log.com/ar/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kinda-log.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://kinda-log.com/ar/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kinda-log.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kinda-log.com/ar/services.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kinda-log.com/services.html"/>
+  </url>
+  <url>
+    <loc>https://kinda-log.com/ar/certifications.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kinda-log.com/certifications.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kinda-log.com/ar/certifications.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kinda-log.com/certifications.html"/>
+  </url>
+  <url>
+    <loc>https://kinda-log.com/ar/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kinda-log.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kinda-log.com/ar/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kinda-log.com/contact.html"/>
+  </url>
+</urlset>
