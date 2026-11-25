@@ -1,0 +1,18 @@
+name: fetch-stock
+on:
+  push:
+    branches: [stock-photos]
+    paths: [urls.txt]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p img
+          while read n u; do curl -sSL -o "img/$n.jpg" "$u?ixlib=rb-4.1.0&q=82&fm=jpg&w=1600"; done < urls.txt
+          ls -la img
+          git config user.name "kinda-bot"; git config user.email "info@kinda-log.com"
+          git add img && git commit -m "Add licensed Unsplash photos for Kinda posts" && git push
